@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Flexbox Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Page Title</h1>
+    </header>
+    <main class="flex-container">
+      <div class="left-column">
+        <div class="content">
+          <div class="filler-verse"></div>
+          <ul class="verse" id="verse1">
+            <li class="line" id="line1">Roses are red</li>
+            <li class="line" id="line2">Violets are blue</li>
+            <li class="line" id="line3">HTML structures</li>
+            <li class="line" id="line4">Content it drew</li>
+          </ul>
+
+          <ul class="verse" id="verse2">
+            <li class="line" id="line5">Roses are red</li>
+            <li class="line" id="line6">Violets are blue</li>
+            <li class="line" id="line7">CSS adds style</li>
+            <li class="line" id="line8">Colors it knew</li>
+          </ul>
+
+          <ul class="verse" id="verse3">
+            <li class="line" id="line9">Roses are red</li>
+            <li class="line" id="line10">Violets are blue</li>
+            <li class="line" id="line11">In the data's world</li>
+            <li class="line" id="line12">D3's breakthrough</li>
+          </ul>
+
+          <ul class="verse" id="verse4">
+            <li class="line" id="line13">Roses are red</li>
+            <li class="line" id="line14">Violets are blue</li>
+            <li class="line" id="line15">React's the star</li>
+            <li class="line" id="line16">UI it'll renew</li>
+          </ul>
+
+          <ul class="verse" id="verse5">
+            <li class="line" id="line17">Roses are red</li>
+            <li class="line" id="line18">Violets are blue</li>
+            <li class="line" id="line19">Vue.js shines</li>
+            <li class="line" id="line20">Ideas anew</li>
+          </ul>
+          <div class="filler-verse"></div>
+        </div>
+      </div>
+      <div class="right-column">
+        <!-- Add an SVG element with pale pink background -->
+        <svg id="svg" class="pink-svg"></svg>
+      </div>
+    </main>
+    <footer>
+      <button class="arrow-button" id="backward-button">◄</button>
+      <button class="arrow-button" id="forward-button">►</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
